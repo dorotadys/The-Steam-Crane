@@ -1,0 +1,36 @@
+body {
+    background-image: linear-gradient(rgba(177, 177, 177, 0.5), rgba(177,177,177,0.5)), url(EYzuTKbWoAAMU8x.jpg);
+    background-size: cover;
+    color: black;
+    font-family: 'Lato', 'Arial', sans-serif;
+    font-size: 20px;
+    margin: 0 30px;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    justify-content: center;
+    margin: auto;
+    padding: 20px 30px;
+}
+
+h1 {
+    font-size: 200%;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+
+@media only screen and (max-width: 576px){
+    .header img {
+        height: 100px;
+    }
+
+    h1, h3 {font-size: 80%;}
+}
